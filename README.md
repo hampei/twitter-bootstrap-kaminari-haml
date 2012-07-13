@@ -12,5 +12,5 @@ Adds optional data option to paginate, that will be passed to all page-links.
 
 ## Credits
 
-Converted from Dat Le's [original HAML repo](https://github.com/datl/twitter-bootstrap-kaminari-haml)
+Converted from Dat Le's [original HAML repo](https://github.com/datl/twitter-bootstrap-kaminari-haml)  
 Converted from gabetax's [original ERB repo](https://github.com/gabetax/twitter-bootstrap-kaminari-views)
