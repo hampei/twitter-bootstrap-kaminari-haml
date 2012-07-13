@@ -7,6 +7,7 @@
     per_page:      number of items to fetch per page
     remote:        data-remote
 
+- data = {} unless defined? data
 - unless current_page.first?
   %li.first
-    = link_to raw(t 'views.pagination.first'), url, :remote => remote
+    = link_to raw(t 'views.pagination.first'), url, :remote => remote, :data => data

@@ -6,7 +6,11 @@
 
 Simply copy app/views/kaminari to your views folder.
 
+Adds optional data option to paginate, that will be passed to all page-links.
+
+    = paginate @users, remote: true, data: {replace_element: '#admin_main'}
 
 ## Credits
 
+Converted from Dat Le's [original HAML repo](https://github.com/datl/twitter-bootstrap-kaminari-haml)
 Converted from gabetax's [original ERB repo](https://github.com/gabetax/twitter-bootstrap-kaminari-views)
